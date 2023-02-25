@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { userContext } from "../App";
 import LogoImg from '../images/logo.png'
 
 const Navbar = () => {
+
+  const { state, dispatch } = useContext(userContext);
+
   return (<>
     <div className=" container-fluid nav-bg">
       <div className="row">
@@ -43,16 +47,23 @@ const Navbar = () => {
                     DONATE</NavLink>
                 </div>
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li className="nav-item mx-3">
-                    <NavLink aria-current="page" to='/register'
+                  {!state ? <>
+                    <li className="nav-item mx-3">
+                      <NavLink aria-current="page" to='/register'
+                        className={({ isActive }) => { return isActive ? 'menu-active nav-link' : 'nav-link'; }}>
+                        Register</NavLink>
+                    </li>
+                    <li className="nav-item mx-3">
+                      <NavLink aria-current="page" to='/login'
+                        className={({ isActive }) => { return isActive ? 'menu-active nav-link' : 'nav-link'; }}>
+                        Login</NavLink>
+                    </li>
+                  </> : <li className="nav-item mx-3">
+                    <NavLink aria-current="page" to='/logout'
                       className={({ isActive }) => { return isActive ? 'menu-active nav-link' : 'nav-link'; }}>
-                      Register</NavLink>
+                      Logout</NavLink>
                   </li>
-                  <li className="nav-item mx-3">
-                    <NavLink aria-current="page" to='/login'
-                      className={({ isActive }) => { return isActive ? 'menu-active nav-link' : 'nav-link'; }}>
-                      Login</NavLink>
-                  </li>
+                  }
                 </ul>
               </div>
             </div>

@@ -5,7 +5,7 @@ import lawyer2 from '../images/lawyer2.png'
 const Getinvolved = () => {
   return (
     <>
-      <p className='text-center display-5 fw-normal mt-3'>OUR ADVOCATES</p>
+      <p className='text-center display-5 fw-normal mt-5'>OUR ADVOCATES</p>
       <div className="container-fluid mt-5">
         <div className="row justify-content-center">
           <div className="col-7 d-flex flex-column justify-content-center text-center">
@@ -33,7 +33,7 @@ const Getinvolved = () => {
               <button className="button-59 mt-5" style={{ 'borderRadius': '5px' }}>Know More</button>
             </div>
           </div>
-          <div className="col-4 order-0">
+          <div className="col-5 order-0">
             <img src={lawyer2} alt="..." />
           </div>
         </div>
