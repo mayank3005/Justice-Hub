@@ -24,7 +24,7 @@ const Navbar = () => {
                   <li className="nav-item mx-3">
                     <NavLink to='/getinvolved'
                       className={({ isActive }) => { return isActive ? 'menu-active nav-link' : 'nav-link'; }}>
-                      GET INVOLVED</NavLink>
+                      LEGAL SERVICES</NavLink>
                   </li>
                   <li className="nav-item mx-3">
                     <NavLink to='/about'
