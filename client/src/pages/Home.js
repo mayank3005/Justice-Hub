@@ -22,8 +22,10 @@ const Home = () => {
         <button className="button-59 mt-4" style={{ 'borderRadius': '5px' }}>Donate Now</button>
       </div>
       <div className="container-fluid mt-5 text-center">
-        <h1 className='d-flex justify-content-center'>Our Services</h1>
-        <div className="container-fluid mt-5 mx-auto">
+        <div className="row">
+          <h1 className='d-flex justify-content-center'>Our Services</h1>
+        </div>
+        <div className="container mt-5 mx-auto">
           <div className="row">
             <div className="col-lg-3 col-md-4 col-sm-6 mb-4"><CircularCard c_img="https://www.splcenter.org/sites/default/files/priority_bean_images/splc-hate-and-extremism-200.jpg" c_title="Hate & Extremism" c_button="Learn More" /></div>
             <div className="col-lg-3 col-md-4 col-sm-6 mb-4"><CircularCard c_img="https://www.splcenter.org/sites/default/files/priority_bean_images/SPLC-childrens-rights-200.jpg" c_title="Children's Rights" c_button="Learn More" /></div>

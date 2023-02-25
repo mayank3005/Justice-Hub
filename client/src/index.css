@@ -114,7 +114,7 @@
 /* *********************************** Footer ****************************** */
 
 .allButFooter {
-  min-height: calc(100vh - 30px);
+  min-height: calc(100vh - 1px);
 }
 
 .footer-css {
@@ -277,4 +277,12 @@
   background: #A56947;
   color: white;
   border-radius: 11px;
+}
+
+/* *********************************** About Us ******************************* */
+
+.about-hero-section {
+  height: 400px;
+  width: 100%;
+  background-image: url('./images/unity.png');
 }
