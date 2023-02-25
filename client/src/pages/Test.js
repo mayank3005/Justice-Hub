@@ -1,25 +1,17 @@
-import React,{useEffect, useState} from 'react'
+import React from 'react'
 import PayPal from './PayPal';
 
 const Test = () => {
-    const [checkout, setCheckOut]= useState(false);
-  return (
-    <div>
-        {
-            checkout ?(
-                <PayPal />
+    return (
+        <>
+            <div className="empty-div" style={{ 'height': '250px' }}>
+            </div>
 
-            ) :(
-                <button onClick={()=>{
-                    setCheckOut(true);
-                }}
-                >
-                    Checkout
-                </button>
-            )
-        }
-    </div>
-  )
+            <div className='text-center' >
+                <PayPal />
+            </div>
+        </>
+    )
 }
 
 export default Test

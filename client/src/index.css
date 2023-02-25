@@ -201,28 +201,20 @@
 }
 
 /*************************************Donate********************************/
-.bg_donate {
-  position: absolute;
-  width: 1512px;
-  height: 888px;
-  left: 0px;
-  top: 94px;
 
-  background: #000000;
-  mix-blend-mode: overlay;
-  opacity: 0.3;
+.donate-section {
+  background-image: url('./images/back.png');
+  height: 92vh;
 }
 
-.texxt_donate {
-  position: absolute;
-  left: 271px;
-  top: 177px;
 
+.texxt_donate {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 163px;
   line-height: 43px;
+  margin-top: 20vh !important;
   /* identical to box height */
 
   color: #FFFFFF;
@@ -231,49 +223,26 @@
 }
 
 .texxt_doante2 {
-  position: absolute;
-  width: 676px;
-  height: 62px;
-  left: 415px;
-  top: 260px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 31px;
-  line-height: 62px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 0px 10px 1px rgb(0 0 0 / 68%);
 }
 
 .texxt_doante3 {
-  position: absolute;
-  width: 675px;
-  height: 116px;
-  left: 278px;
-  top: 301px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-size: 20px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
 
 .button_donate {
-  position: absolute;
-  width: 214px;
-  height: 77px;
-  left: 513px;
   font-size: 23px;
-  top: 445px;
   background: #A56947;
   color: white;
   border-radius: 11px;
