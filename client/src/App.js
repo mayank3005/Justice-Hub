@@ -10,6 +10,8 @@ import Newsletter from './pages/Newsletter'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./pages/Login";
+import Test from "./pages/Test";
+
 import Register from "./pages/Register";
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
         <Route path='/donate' element={<Donate />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/test' element={<Test />} />
         <Route path='*' element={<Home />} />
       </Routes>
     </div>
