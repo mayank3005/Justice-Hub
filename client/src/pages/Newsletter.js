@@ -25,7 +25,7 @@ const Newsletter = () => {
         <img src={img3} className="bg" alt="..." />
       </div>
       <div className='texxt1'>Subscribe To Newsletter</div>
-      <div className='texxt2'>Discover the latest laws and rules on the daily basis via the email<br/>Our Newsletter provides you with the rights every human can claim.</div>
+      <div className='texxt2'>Discover the latest laws and rules on the daily basis via the email<br />Our Newsletter provides you with the rights every human can claim.</div>
       <div >
         <form ref={form} onSubmit={sendEmail}>
           <input className='inputtext1' name="name" type="text" placeholder='Enter the name' />
