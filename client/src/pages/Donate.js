@@ -10,7 +10,7 @@ const Donate = () => {
 
     return (
         <div className="donate-section text-center py-5">
-            <div className='texxt_donate'>DONATE</div>
+            <div className='texxt_donate'>DONAT</div>
             <div className='texxt_doante2 my-5'>Support Our Programs</div>
             <div className='texxt_doante3 my-5'>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
             <div>
