@@ -11,18 +11,18 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Company name
+                  Justice-Hub
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                Justice-Hub focuses on the need for accessible legal services.
+                 We provide guidance and legal support to those who need it. 
+
                 </p>
               </div>
 
               <hr className="w-100 clearfix d-md-none" />
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              {/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                 <p>
                   <a className="text-white" href='/'>MDBootstrap</a>
@@ -36,25 +36,25 @@ const Footer = () => {
                 <p>
                   <a className="text-white" href='/'>Bootstrap Angular</a>
                 </p>
-              </div>
+              </div> */}
 
               <hr className="w-100 clearfix d-md-none" />
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Useful links
+                  Our Services
                 </h6>
                 <p>
-                  <a className="text-white" href='/'>Your Account</a>
+                  <a className="text-white" href='/'>Hate & Extremism</a>
                 </p>
                 <p>
-                  <a className="text-white" href='/'>Become an Affiliate</a>
+                  <a className="text-white" href='/'>Children's Rights</a>
                 </p>
                 <p>
-                  <a className="text-white" href='/'>Shipping Rates</a>
+                  <a className="text-white" href='/'>Economic Justice</a>
                 </p>
                 <p>
-                  <a className="text-white" href='/'>Help</a>
+                  <a className="text-white" href='/'>Immigrant Justice</a>
                 </p>
               </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                <p><i className="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i className="fas fa-home mr-3"></i> Haryana, NIT KKR, IN</p>
                 <p><i className="fas fa-envelope mr-3"></i> info@gmail.com</p>
                 <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
                 <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
@@ -76,8 +76,8 @@ const Footer = () => {
             <div className="row d-flex align-items-center">
               <div className="col-md-7 col-lg-8 text-center text-md-start">
                 <div className="p-3">
-                  © 2020 Copyright:
-                  <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                  © 2023 Copyright:
+                  <a className="text-white" >  Justice-Hub</a>
                 </div>
               </div>
 
