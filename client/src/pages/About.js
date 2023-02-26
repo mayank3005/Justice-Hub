@@ -7,8 +7,8 @@ const About = () => {
       <div className="container-fluid about-hero-section mt-2 text-center pt-5">
         <h1 className='text-white display-2 mt-5'>About Us</h1>
       </div>
-      <div className="container-fluid mt-5 py-3">
-        <h4 className='text-center'>Justice-Hub focuses on the need for accessible legal services. We provide guidance and legal support to those who need it.Our goal is to ensure<br/> that everyone has access to justice and is able to fight for their rights.</h4>
+      <div className="container-fluid mt-6">
+        <p className='para'>Justice-Hub focuses on the need for accessible legal services. We provide guidance and legal support to those who need it. Our goal is to ensure that everyone has access to justice and is able to fight for their rights.</p>
       </div>
       <div className="container-fluid mt-5">
         <h1 className='text-center display-4 fw-normal'>OUR MISSION</h1>

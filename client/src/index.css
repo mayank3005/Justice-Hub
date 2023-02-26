@@ -252,6 +252,13 @@
 
 .about-hero-section {
   height: 400px;
+  background-repeat: no-repeat;
   width: 100%;
   background-image: url('./images/unity.png');
+}
+.para
+{
+  padding-left:25px !important ;
+  font-family:'light';
+  font-size: 25px;
 }

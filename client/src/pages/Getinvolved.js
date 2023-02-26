@@ -27,7 +27,7 @@ const Getinvolved = () => {
             <div className="content-section py-5 px-5" style={{ 'backgroundColor': '#F3E9DA' }}>
               <h1>Advocate Juliya</h1>
               <div className="diplay-6">Kurukshetra, Haryana, India</div>
-              <div className="h-5 mt-4">Advocate Juliya provides services in various field of civil as well as corporate laws, inter-alia, Suits, Writs, Petitions, Appeals, Revisions, Complaints relating to debt recovery, dishonor of cheques, rent control act, property disputes, matrimonial disputes, consumer complaints, complaints pertaining to Food Adulteration Act and service matter,Children rights</div>
+              <div className="h-5 mt-4">Advocate Juliya provides services in various field of civil as well as corporate laws, inter-alia, Suits, Writs, Petitions, Appeals, Revisions, Complaints relating to debt recovery, dishonor of cheques, rent control act, property disputes, matrimonial disputes, consumer complaints, complaints pertaining to Food Adulteration Act and service matter,Children rights.</div>
               <button className="button-59 mt-5" style={{ 'borderRadius': '5px' }}>Know More</button>
             </div>
           </div>
