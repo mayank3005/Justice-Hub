@@ -2,8 +2,10 @@ import React from 'react'
 import Card from '../components/Card'
 import Carousel from '../components/Carousel'
 import CircularCard from '../components/CircularCard'
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Carousel />
@@ -19,7 +21,7 @@ const Home = () => {
       <div className="py-5 container-fluid support-section text-center text-white w-100 mt-5">
         <h1>Support Our Work</h1>
         <p>Your gift will help win justice on behalf of those who have no other champion, expose and fight the hate that thrives in our <br />country, and provide tolerance education materials free of charge to schools across our nation.</p>
-        <button className="button-59 mt-4" style={{ 'borderRadius': '5px' }}>Donate Now</button>
+        <button className="button-59 mt-4" style={{ 'borderRadius': '5px' }} onClick={() => { navigate('/test') }}>Donate Now</button>
       </div>
       <div className="container-fluid mt-5 text-center">
         <div className="row">
